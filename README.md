@@ -248,6 +248,10 @@ habilidades blandas y que tengas el nivel 1 en sólo 3 habilidades.
 
 ***
 
+## Puntos de experiencia
+
+Este proyecto en el bootcamp te otorgará 100 XP (Puntos de experiencia).
+
 ## Primeros pasos
 
 1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
@@ -310,3 +314,7 @@ tu proyecto, teniendo en cuenta el desarrollo de tus _habilidades blandas_:
 * Trabaja en equipo, pregunta e intenta completar el proyecto sin rendirte.
 * Prepara tu presentación, si no logro comunicar mis ideas a los demás no se
   podrá apreciar todo el esfuerzo y trabajo que invertiste.
+
+## Recursos (Q & A)
+
+El código de [sli.do](https://www.sli.do/) para el proyecto 1 : U414
