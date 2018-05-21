@@ -317,4 +317,6 @@ tu proyecto, teniendo en cuenta el desarrollo de tus _habilidades blandas_:
 
 ## Recursos (Q & A)
 
-El código de [sli.do](https://www.sli.do/) para el proyecto 1 : U414
+El código de [sli.do](https://www.sli.do/) para el proyecto 1 :
+
+* Turno pm: #B243
