@@ -1,3 +1,4 @@
+/*Estilo Titulo*/
 h1 {
     background-color: rgb(168, 248, 244);
     color: #fff;
@@ -9,6 +10,8 @@ h1 {
     border-color: aquamarine
           
 }
+
+/* Estilos Botones*/
 #btnCoder {
   color: #318aac !important;
   font-size: 20px;
@@ -62,15 +65,14 @@ h1 {
 
 #keyss {
     text-align: center;
-    padding: 3%;
+    padding: 2%;
 }
 #msjI {
     text-align: center;
-    padding: 3%;
 }
 #msjO {
     text-align: center;
-    padding: 3%;
+    
 }
 
 div{background-color: rgb(236, 234, 227)}
