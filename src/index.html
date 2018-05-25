@@ -1,13 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="cipher.js"></script>
+    <head>
+        <meta charset="utf-8">
+        <title>cesar</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Formulario -->
+        <form>
+            <div id="title">
+            <h1>CIFRADO CESAR</h1>
+            </div>
+            <hr/>
+           
+            <section class="botones" align="center" >
+                <!--Boton para Cifrar -->
+                <input type="button" value="Code" id="btnCoder">
+
+                <!-- Boton para descrifrar-->
+                <input type="button" value="Decipher" id="btnDecipher" >
+
+                <!-- Boton resetear: borra información-->
+                <input  type="reset" value="Resetear" id="reset"></button>
+            </section>
+
+            <div id="keyss">
+                <!-- Ingresar valor fijo para desplazar cifrado -->
+                <label for="key">Offset:</label>
+                <input type="number" id="key" name="name" max="33" min="0">
+            </div>   
+
+            <div id="msjI">
+                <!-- textArea: Ingresa mensaje a Cifrar y Descifrar-->
+                <label for="msjInput">Ingresar texto:</label>
+                <textarea name="" id="msjInput" placeholder="TEXTO CIFRADO/DECIFRADO"></textarea>
+            </div>
+
+            <div id="msjO">
+                <!-- textArea: Muestra resultado del Encriptado y desencriptado-->
+                <textarea name="" id="msjOut"></textarea>
+            </div>
+        </form>
+    </body>
+    <script src="app.js"></script>
     <script src="index.js"></script>
-  </body>
 </html>
