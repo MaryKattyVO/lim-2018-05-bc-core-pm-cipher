@@ -44,12 +44,11 @@ window.cipher = {
        
         }
         return textOut;
-    }
-    , 
+    }, 
 
     createCipherWithOffset: (offset) => {
         const result = {
-            
+
         encode: (string)=>{
            // cipher.encode(offset,string);
             return  cipher.encode(offset,string);
