@@ -11,7 +11,7 @@ window.cipher = {
 
             if(convertToAsqui >= 65 && convertToAsqui <= 90){
                 textOut = textOut + String.fromCharCode((convertToAsqui - 65+keyNew)%26 + 65);
-                console.log(textOut);
+               // console.log(textOut);
             }
             else if(convertToAsqui >= 97 && convertToAsqui <= 122){
                 textOut = textOut + String.fromCharCode((convertToAsqui - 97+keyNew)%26 + 97);
@@ -33,7 +33,7 @@ window.cipher = {
 
             if(convertToAsqui >= 65 && convertToAsqui <= 90){
                 textOut = textOut + String.fromCharCode((convertToAsqui - 65 - keyNew +  26*2)%26 + 65);
-                console.log(textOut);
+                //console.log(textOut);
             }
             else if(convertToAsqui >= 97 && convertToAsqui <= 122){
                 textOut = textOut + String.fromCharCode((convertToAsqui - 97 - keyNew +  26*2)%26 + 97);
@@ -44,12 +44,12 @@ window.cipher = {
        
         }
         return textOut;
-    }, 
-
+    }
+    , 
 
     createCipherWithOffset: (offset) => {
         const result = {
-
+            
         encode: (string)=>{
            // cipher.encode(offset,string);
             return  cipher.encode(offset,string);

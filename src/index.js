@@ -8,9 +8,7 @@ const mensajeSalida = document.getElementById("msjOut");
 
 //inserta valor en HTML: Encode
 const empezarCifrado = () =>{
-    let key1 =  key.value;
-    let mensajeEntradita = msjInput.value;
-    mensajeSalida.value = window.cipher.createCipherWithOffset(key1).encode(mensajeEntradita);
+    mensajeSalida.value = window.cipher.createCipherWithOffset(valorFijo.value).encode(mensajeEntrada.value);
 }
 //Evento click para cifrar:
 buttonCoder.addEventListener('click',empezarCifrado);
@@ -18,29 +16,13 @@ buttonCoder.addEventListener('click',empezarCifrado);
 
 //Inserta valor en HTMLl: Decode
 const empezarDesCifrado = () =>{
-    let key1 =  key.value;
-    let mensajeEntradita = msjInput.value;
-    mensajeSalida.value = window.cipher.createCipherWithOffset(key1).decode(mensajeEntradita);
+    mensajeSalida.value = window.cipher.createCipherWithOffset(valorFijo.value).decode(mensajeEntrada.value);
 }
 //Evento click para descifrar
 buttonDecipher.addEventListener('click',empezarDesCifrado);
 
 //Evento limpiar contenido de caja de texto:
 buttonClear.addEventListener('click', () => {
-    key.value = '';
-    msjInput.value = '';
+    valorFijo.value = '';
+    mensajeSalida.value = '';
 });
-
-
-
-
-
-
-
-
-
-/*function hola (){
-    return console.log('hola')
-}
-
-hola()*/
