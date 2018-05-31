@@ -10,17 +10,17 @@ const mensajeSalida = document.getElementById("msjOut");
 const empezarCifrado = () =>{
     let key1 =  key.value;
     let mensajeEntradita = msjInput.value;
-    mensajeSalida.value = window.cipher.encode(key1,mensajeEntradita);
+    mensajeSalida.value = window.cipher.createCipherWithOffset(key1).encode(mensajeEntradita);
 }
 //Evento click para cifrar:
 buttonCoder.addEventListener('click',empezarCifrado);
 
 
-//Inserta respuesta en HTMLl: Decode
+//Inserta valor en HTMLl: Decode
 const empezarDesCifrado = () =>{
     let key1 =  key.value;
     let mensajeEntradita = msjInput.value;
-    mensajeSalida.value = window.cipher.decode(key1,mensajeEntradita);
+    mensajeSalida.value = window.cipher.createCipherWithOffset(key1).decode(mensajeEntradita);
 }
 //Evento click para descifrar
 buttonDecipher.addEventListener('click',empezarDesCifrado);

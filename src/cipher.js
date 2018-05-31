@@ -59,7 +59,6 @@ window.cipher = {
             return cipher.decode(offset,string);
         } 
     }
-    console.log();
     return result;
     }
 }
