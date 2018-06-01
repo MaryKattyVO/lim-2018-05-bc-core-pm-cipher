@@ -7,7 +7,7 @@ window.cipher = {
         let textOut = "";
 
         for(let i = 0; i < string.length; i++){
-            let convertToAsqui = string.charCodeAt(i);
+            const convertToAsqui = string.charCodeAt(i);
 
             if(convertToAsqui >= 65 && convertToAsqui <= 90){
                 textOut = textOut + String.fromCharCode((convertToAsqui - 65+keyNew)%26 + 65);
@@ -16,8 +16,9 @@ window.cipher = {
             else if(convertToAsqui >= 97 && convertToAsqui <= 122){
                 textOut = textOut + String.fromCharCode((convertToAsqui - 97+keyNew)%26 + 97);
             }
-            else if(convertToAsqui == 32){
-                textOut = textOut + String.fromCharCode(32);
+            else {
+                textOut += string[i];
+                //textOut = textOut + String.fromCharCode(32);if(convertToAsqui == 32 )
             }
         }
         return textOut;
@@ -29,7 +30,7 @@ window.cipher = {
         let textOut = "";
 
         for(let i = 0; i < string.length; i++){
-            let convertToAsqui = string.charCodeAt(i);
+            const convertToAsqui = string.charCodeAt(i);
 
             if(convertToAsqui >= 65 && convertToAsqui <= 90){
                 textOut = textOut + String.fromCharCode((convertToAsqui - 65 - keyNew +  26*2)%26 + 65);
@@ -38,8 +39,9 @@ window.cipher = {
             else if(convertToAsqui >= 97 && convertToAsqui <= 122){
                 textOut = textOut + String.fromCharCode((convertToAsqui - 97 - keyNew +  26*2)%26 + 97);
             }
-            else if(convertToAsqui == 32){
-                textOut = textOut + String.fromCharCode(32);
+            else {
+                textOut += string[i];
+               // textOut = textOut + String.fromCharCode(32);if(convertToAsqui == 32)
             }
        
         }
