@@ -8,7 +8,8 @@ const mensajeSalida = document.getElementById("msjOut");
 
 //inserta valor en HTML: Encode
 const empezarCifrado = () =>{
-    mensajeSalida.value = window.cipher.createCipherWithOffset(valorFijo.value).encode(mensajeEntrada.value);
+   mensajeSalida.value = window.cipher.createCipherWithOffset(valorFijo.value).encode(mensajeEntrada.value);
+    
 }
 //Evento click para cifrar:
 buttonCoder.addEventListener('click',empezarCifrado);
@@ -16,7 +17,8 @@ buttonCoder.addEventListener('click',empezarCifrado);
 
 //Inserta valor en HTMLl: Decode
 const empezarDesCifrado = () =>{
-    mensajeSalida.value = window.cipher.createCipherWithOffset(valorFijo.value).decode(mensajeEntrada.value);
+   mensajeSalida.value = window.cipher.createCipherWithOffset(valorFijo.value).decode(mensajeEntrada.value);
+   
 }
 //Evento click para descifrar
 buttonDecipher.addEventListener('click',empezarDesCifrado);
