@@ -1,4 +1,4 @@
-//METODO CIFRAR
+//FUNCION CIFRAR
 window.cipher = { 
 
     //Metodo cifrar:    
