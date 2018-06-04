@@ -35,6 +35,7 @@ Aquí los pasos de la funcionalidad de Descrifrar.
 Aquí los pasos de la funcionalidad de Clean.
 ![diapositiva4](https://user-images.githubusercontent.com/37357453/40925581-ac3b79b8-67df-11e8-9f0a-f73d32f56d7d.PNG)
 ## 4. CONCLUSIONES
+- La aplicación Cifrado Cesar es una aplicación que solo realiza el cifrado y descifrado del ingreso de un texto.
 - 
 
 
