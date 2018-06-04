@@ -24,9 +24,9 @@ Tecnología y Lenguaje de Programació utilizados
 El prototipo para la página de Cifrado Cesar fue realizado utilizando la herramienta tecnológica de Balsamiq.
 
 ![appi](https://user-images.githubusercontent.com/37357453/40921346-d268fe68-67d4-11e8-925b-4af7b443e25d.png)
-### 3. FUNCIONALIDAD
+## 3. FUNCIONALIDAD
 ### 3.1 Pasos para el uso de la aplicación web
-Aquí se muestra la apliación terminada del Cifrado Cesar.
+Aquí se muestra la aplicación terminada del Cifrado Cesar.
 ![diapositiva1](https://user-images.githubusercontent.com/37357453/40925555-a1a55668-67df-11e8-9345-2e0349ca6bea.PNG)
 Aquí los pasos de la funcionalidad de CIfrar.
 ![diapositiva2](https://user-images.githubusercontent.com/37357453/40925564-a64eab9c-67df-11e8-83b7-b30527b6a8df.PNG)
