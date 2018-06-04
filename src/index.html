@@ -2,51 +2,36 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>cesar</title>
+        <title>Appi Cifrado Cesar</title>
         <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximun-scale=1, minimun-scale=1">
     </head>
     <body>
-        <!-- Formulario -->
-        <form>
-            <div id="title">
-            <h1>CIFRADO CESAR</h1>
-            </div>
-            <hr/>
-           
-            <section class="botones" align="center" >
-                <!--Boton para Cifrar -->
-                <input type="button" value="Code" id="btnCoder">
+        <video autoplay="autoplay" loop>
+            <source src="tubo.mp4" type="video/mp4" />
+        </video>
+        <header>
+            <div class="container">
+                <h1>CIFRADO CESAR</h1>
+            </div>    
+        </header>
+            
+        <div id="root">
+            <input type="button" value="Cifrar" id="btnEncode">
+            <input type="button" value="Decifrar" id="btnDecode">
+            <button id="btnClear">Clean</button>
+            <br>
+            <label for="key" >Ingrese número a desplazar:</label>
+            <input type="number" id="key" name="name" max="33" min="0">
+          
+            <label for="msjInput" class="styleTitleInput" >Ingresar texto:</label>
+            <textarea id="msjInput" placeholder="TEXTO CIFRADO/DECIFRADO" cols="25" rows="5" ></textarea>
+            <textarea id="msjOut" placeholder="SE MUESTRA RESULTADO" cols="25" rows="5" ></textarea>
 
-                <!-- Boton para descrifrar-->
-                <input type="button" value="Decipher" id="btnDecipher" >
-
-                <!-- Boton resetear: borra información-->
-                <button id="buttonClear">Clean</button>
-            </section>
-
-            <div id="keyss">
-                <!-- Ingresar valor fijo para desplazar cifrado -->
-                <label for="key">Offset:</label>
-                <input type="number" id="key" name="name" max="33" min="0">
-            </div>   
-
-            <div id="msjI">
-                <!-- textArea: Ingresa mensaje a Cifrar y Descifrar-->
-                <label for="msjInput" >Ingresar texto:</label>
-                <br/>
-                <textarea name="" id="msjInput" placeholder="TEXTO CIFRADO/DECIFRADO"></textarea>
-            </div>
-
-            <div id="msjO">
-                <!-- textArea: Muestra resultado del Encriptado y desencriptado-->
-                <label for="msjInput" >Resultado:</label>
-                <br/>
-                <textarea name="" id="msjOut"></textarea>
-            </div>
-        </form>
-        <footer>
+            <footer>
             <p>Copyright 2018 Mary Katty Vicuña</p>
-        </footer>
+            </footer>
+        </div>
     </body>
     <script src="cipher.js"></script>
     <script src="index.js"></script>

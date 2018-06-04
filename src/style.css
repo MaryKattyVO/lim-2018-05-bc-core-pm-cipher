@@ -1,78 +1,80 @@
-/*Estilo Titulo*/
+video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+#root {
+    width: 800px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    border-radius: 7px;  
+}
 h1 {
-    background-color: rgb(168, 248, 244);
-    color: #fff;
-    font-size: 6em;
-    font-weight: bold;
-    font-family: Helvetica;
-    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 2px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
-    text-align: center;   
-    border-color: aquamarine
-          
+    color:white;
+    text-align: center;
+    margin: 1;
+    font-size: 50px;
+    margin-top: 0px;
+    font-family: cursive;    
+}
+#btnEncode , #btnDecode , #btnClear {
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 500px;
+    float: left;
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.8;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 20px;
 }
 
-/* Estilos Botones*/
-#btnCoder {
-  color: #318aac !important;
-  font-size: 20px;
-  font-weight: 500;
-  padding: 0.5em 1.2em;
-  background: rgba(0,0,0,0);
-  border: 2px solid;
-  border-color: #318aac;
-  transition: all 1s ease;
-  position: relative;
-  text-align: center;
-}
-#btnCoder:hover {
+#btnEncode:hover ,#btnDecode:hover , #btnClear:hover {
     background: #318aac;
     color: #fff !important;
+    cursor: pointer;
 }
-#btnDecipher {
-  color: #318aac !important;
-  font-size: 20px;
-  font-weight: 500;
-  padding: 0.5em 1.2em;
-  background: rgba(0,0,0,0);
-  border: 2px solid;
-  border-color: #318aac;
-  transition: all 1s ease;
-  position: relative;
-  text-align: center;
-}
-#btnDecipher:hover {
-    background: #318aac;
-    color: #fff !important;
-}
-#reset{
-  color: #318aac !important;
-  font-size: 20px;
-  font-weight: 500;
-  padding: 0.5em 1.2em;
-  background: rgba(0,0,0,0);
-  border: 2px solid;
-  border-color: #318aac;
-  transition: all 1s ease;
-  position: relative;
-  text-align: center;
-  
-}
-#reset:hover {
-    background: #318aac;
-    color: #fff !important;
-}
-
-
-#keyss {
+label {
+    color:white;
     text-align: center;
-    padding: 2%;
+    margin: 1;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: cursive;
+       
 }
-#msjI {
+#key,textarea {
+    width: 100%;
+    margin-bottom: 20px;
     text-align: center;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 0px blue;
 }
-#msjO {
+p{
+    color:white;
     text-align: center;
+    margin: 1;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: cursive;
     
 }
 
-div{background-color: rgb(236, 234, 227)}
+@media (max-width:800px) {
+    #root {
+        width:100%
+    }
+}

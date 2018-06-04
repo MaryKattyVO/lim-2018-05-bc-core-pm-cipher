@@ -1,30 +1,28 @@
-//DOM: Traer obejtos
-const buttonCoder = document.getElementById('btnCoder');
-const buttonDecipher = document.getElementById('btnDecipher');
-const buttonClear = document.getElementById('buttonClear');
-const mensajeEntrada =  document.getElementById('msjInput');
-const valorFijo = document.getElementById('key');
-const mensajeSalida = document.getElementById("msjOut");
+const btnEncode = document.getElementById('btnEncode');
+const btnDecode = document.getElementById('btnDecode');
+const btnClear = document.getElementById('btnClear');
+const msjInput =  document.getElementById('msjInput');
+const key = document.getElementById('key');
+const msjOut = document.getElementById("msjOut");
 
-//inserta valor en HTML: Encode
-const empezarCifrado = () =>{
-   mensajeSalida.value = window.cipher.createCipherWithOffset(valorFijo.value).encode(mensajeEntrada.value);
+//Encode;
+const startEncode = () =>{
+    msjOut.value = window.cipher.createCipherWithOffset(key.value).encode(msjInput.value);
     
 }
-//Evento click para cifrar:
-buttonCoder.addEventListener('click',empezarCifrado);
+btnEncode.addEventListener('click', startEncode);
 
-
-//Inserta valor en HTMLl: Decode
-const empezarDesCifrado = () =>{
-   mensajeSalida.value = window.cipher.createCipherWithOffset(valorFijo.value).decode(mensajeEntrada.value);
+//Decode;
+const startDecode = () =>{
+    msjOut.value = window.cipher.createCipherWithOffset(key.value).decode(msjInput.value);
    
 }
-//Evento click para descifrar
-buttonDecipher.addEventListener('click',empezarDesCifrado);
+btnDecode.addEventListener('click',startDecode);
 
-//Evento limpiar contenido de caja de texto:
-buttonClear.addEventListener('click', () => {
-    valorFijo.value = '';
-    mensajeSalida.value = '';
+btnClear.addEventListener('click', () => {
+    key.value = '';
+    msjInput.value = '';
+    msjOut.value = '';
 });
+
+
