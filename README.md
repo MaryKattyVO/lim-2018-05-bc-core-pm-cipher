@@ -10,5 +10,18 @@ Pero pensando en el resto de usuarios que puedan pasar por la misma situación p
 - Interfaz interactiva de fácil uso.
 - La aplicación tiene que cifrar correctamente los mensajes. 
 - La apliación tiene que desifrar correctamente los mensajes.
-### FUNCIONALIDAD
+## 2. DISEÑO WEB
+### 2.1 Aspectos Generales
+Tecnología y Lenguaje de Programació utilizados
+- HTML
+- CSS
+- JavaScript
+- Git Bush
+- Node.js
+- Visual Studio COde
+- Balsamiq
+### 2.2 Prototipo
+El prototipo para la página de Cifrado Cesar fue realizado utilizando la herramienta tecnológica de Balsamiq.
 ![appi](https://user-images.githubusercontent.com/37357453/40921346-d268fe68-67d4-11e8-925b-4af7b443e25d.png)
+### 3. FUNCIONALIDAD
+
