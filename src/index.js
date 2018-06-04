@@ -1,13 +1,28 @@
-//Capturando variables :DOM
+const btnEncode = document.getElementById('btnEncode');
+const btnDecode = document.getElementById('btnDecode');
+const btnClear = document.getElementById('btnClear');
 const msjInput =  document.getElementById('msjInput');
-const buttonCoder = document.getElementById('btnCoder');
-const buttonDecipher = document.getElementById('btnDecipher');
 const key = document.getElementById('key');
+const msjOut = document.getElementById("msjOut");
 
-//Agregando evento :Boton encriptar
-buttonCoder.addEventListener('click', encode);
+//Encode;
+const startEncode = () =>{
+    msjOut.value = window.cipher.createCipherWithOffset(key.value).encode(msjInput.value);
+    
+}
+btnEncode.addEventListener('click', startEncode);
 
-//Agregando evento :Boton encriptar
-buttonDecipher.addEventListener('click', decode);
-/*//Escuchando Evento: Boton Desencriptar
-BtnDesencriptar.addEventListener('clik', cipher.encode());*/
+//Decode;
+const startDecode = () =>{
+    msjOut.value = window.cipher.createCipherWithOffset(key.value).decode(msjInput.value);
+   
+}
+btnDecode.addEventListener('click',startDecode);
+
+btnClear.addEventListener('click', () => {
+    key.value = '';
+    msjInput.value = '';
+    msjOut.value = '';
+});
+
+
