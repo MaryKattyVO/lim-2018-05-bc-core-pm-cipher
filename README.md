@@ -26,5 +26,9 @@ El prototipo para la página de Cifrado Cesar fue realizado utilizando la herram
 ![appi](https://user-images.githubusercontent.com/37357453/40921346-d268fe68-67d4-11e8-925b-4af7b443e25d.png)
 ### 3. FUNCIONALIDAD
 ### 3.1 Pasos para el uso de la aplicación web
+![diapositiva1](https://user-images.githubusercontent.com/37357453/40925555-a1a55668-67df-11e8-9345-2e0349ca6bea.PNG)
+![diapositiva2](https://user-images.githubusercontent.com/37357453/40925564-a64eab9c-67df-11e8-83b7-b30527b6a8df.PNG)
+![diapositiva3](https://user-images.githubusercontent.com/37357453/40925574-a96f236a-67df-11e8-9c86-d4592ea96e70.PNG)
+![diapositiva4](https://user-images.githubusercontent.com/37357453/40925581-ac3b79b8-67df-11e8-9f0a-f73d32f56d7d.PNG)
 
 
