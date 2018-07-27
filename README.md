@@ -14,7 +14,7 @@ El producto desarrollado cifra y descifra mensajes para que las personas puedan 
 
 #### PRINCIPALES USUARIOS
 
-El público objetivo son personas a partir de 10 a 25 años de edad.
+El público objetivo son personas a partir de 10 a 25 años de edad. 
 
 #### HERRAMIENTAS TECNOLÓGICAS PARA EL DESARROLLO
 
