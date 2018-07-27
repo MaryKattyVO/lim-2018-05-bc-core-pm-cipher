@@ -45,15 +45,15 @@ El público objetivo son personas a partir de 10 a 25 años de edad.
 #### PROTOTIPO DE BAJA FIDELIDAD
 
 Primer prototipo elaborado para la aplicación de Cifrado y Descifrado.
-![Sin titulo](mockup/appi.png)
+    ![Sin titulo](mockup/appi.png)
 
 #### PROTOTIPO DE ALTA FIDELIDAD_
 
 * Primer prototipo de alta fidelidad .
-![Sin titulo](mockup/prototipo.PNG)
+    ![Sin titulo](mockup/prototipo.PNG)
 
-* Segundo prototipo de alta fidelidad modificado según testing realizado al usuario.
-![Sin titulo](mockup/prototipoDos.png)
+* Segundo prototipo de alta fidelidad modificado según testing realizado al usuario. Se puso los botones de "Cifrar",       "Descifrar" y "Clean" en la parte inferior de la página.
+    ![Sin titulo](mockup/prototipoDos.png)
 
 ### MODO DE USO DE LA APLICACIÓN
 
@@ -61,13 +61,13 @@ Primer prototipo elaborado para la aplicación de Cifrado y Descifrado.
 
 ### CONCLUSIONES
 
-* ***¿Cuáles son los objetivos de estos usuarios en relación con el producto?*** 
+* **¿Cuáles son los objetivos de estos usuarios en relación con el producto?** 
 
-Cifrar y Descifrar mensajes de manera secreta para que otras personas no puedan descubrir sus planes o conversaciones.
+    Cifrar y Descifrar mensajes de manera secreta para que otras personas no puedan descubrir sus planes o conversaciones.
 
-* ***¿Cómo crees que el producto que estás creando les está resolviendo sus problemas?***
+* **¿Cómo crees que el producto que estás creando les está resolviendo sus problemas?**
 
-Los usuarios podrán ingresar su mensaje y tendrán la opción de cifrarlo los desplazamiento que crean conveniente, y podran enviarselo a cualquier persona sin ser descubiertos, en este caso el dueño del cumpleaños no sabrá que le estan preparando una fiesta sorpresa.Además el usuario también podrá leer los mensajes cifrados que le envién otras personas ya que utilizando la apliación podran descifrar mensajes cifrados.
+    Los usuarios podrán ingresar su mensaje y tendrán la opción de cifrarlo los desplazamiento que crean conveniente, y podran enviarselo a cualquier persona sin ser descubiertos, en este caso el dueño del cumpleaños no sabrá que le estan preparando una fiesta sorpresa.Además el usuario también podrá leer los mensajes cifrados que le envién otras personas ya que utilizando la apliación podran descifrar mensajes cifrados.
 
 
 
