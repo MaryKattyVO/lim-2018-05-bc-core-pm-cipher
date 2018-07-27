@@ -7,8 +7,7 @@
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximun-scale=1, minimun-scale=1">
     </head>
     <body>
-        <video autoplay="autoplay" loop>
-            <source src="images/tubo.mp4" type="video/mp4" />
+        <video src="images/tubo.mp4" type="video/mp4" autoplay loop>
         </video>
         <header>
             <div class="container">
@@ -17,16 +16,18 @@
         </header>
             
         <div id="root">
-            <input type="button" value="Cifrar" id="btnEncode">
-            <input type="button" value="Decifrar" id="btnDecode">
-            <button id="btnClear">Clean</button>
+            
             <br>
             <label for="key" >Ingrese número a desplazar:</label>
             <input type="number" id="key" name="name" max="33" min="0">
           
             <label for="msjInput" class="styleTitleInput" >Ingresar texto:</label>
             <textarea id="msjInput" placeholder="TEXTO CIFRADO/DECIFRADO" cols="25" rows="5" ></textarea>
+            <label for="msjInput" class="styleTitleInput" >Resultado Cifrado/Descifrado:</label>
             <textarea id="msjOut" placeholder="SE MUESTRA RESULTADO" cols="25" rows="5" ></textarea>
+            <input type="button" value="Cifrar" id="btnEncode">
+            <input type="button" value="Decifrar" id="btnDecode">
+            <button id="btnClear">Clean</button>
             <footer>
             <p>Copyright 2018 Mary Katty Vicuña</p>
             </footer>
